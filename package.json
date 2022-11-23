@@ -1,0 +1,19 @@
+{
+  "name": "climbing-app",
+  "version": "1.0.0",
+  "description": "Climbing routes app",
+  "workspaces": [
+    "backend"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Diego Sanabria",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
